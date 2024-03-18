@@ -19,7 +19,7 @@ function Contact() {
                     <div className="contact__card">
                         <i className="uil uil-whatsapp contact__card__icon"></i>
                         <h3 className="contact__card__title">Whatsapp</h3>
-                        <span className="contact__card__data">+8801871950601</span>
+                        <span className="contact__card__data">+8801871 950 601</span>
                         <a href="https://api.whatsapp.com/send? phone= +8801871950601 text= Hello, more information !" className="contact__button" target='_blank'>Write me <i className="bx bx-right-arrow-alt contact__button__icon"></i></a>
                     </div>
                     <div className="contact__card">
@@ -32,18 +32,19 @@ function Contact() {
             </div>
             <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
-                <form action="" className="contact__form">
+
+                <form action="#" className="contact__form">
                     <div className="contact__form__div">
                         <label  className="contact__form__tag">Name</label>
-                        <input type="text" id='name' name='name' className='contact__form__tag' placeholder='Insert your Name'/>
+                        <input type="text" id='name' name='name' className='contact__form__input' placeholder='Insert your Name'/>
                     </div>
                     <div className="contact__form__div">
                         <label  className="contact__form__tag">Mail</label>
-                        <input type="email" id='email' name='email' className='contact__form__tag' placeholder='Insert your email'/>
+                        <input type="email" id='email' name='email' className='contact__form__input' placeholder='Insert your email'/>
                     </div>
-                    <div className="contact__form__div">
+                    <div className="contact__form__div contact__form__area">
                         <label  className="contact__form__tag">Project</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" className='contact__form__input'></textarea>
                     </div>
                     <button className='button button__flex'>
                         Send Message
