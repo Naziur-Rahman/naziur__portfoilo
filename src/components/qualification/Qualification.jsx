@@ -27,7 +27,7 @@ function Qualification() {
                             <span className="qualification__subtitle">
                                 Sheikh Hasina National Youth Development Institute</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                <i className="uil uil-calendar-alt"></i> 2022 - 2023
                             </div>
                         </div>
                         <div>
@@ -48,7 +48,7 @@ function Qualification() {
                             <span className="qualification__subtitle">
                             Sheikh Hasina National Youth Development Institute</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                <i className="uil uil-calendar-alt"></i> 2022 - 2023
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,9 @@ function Qualification() {
                         <div>
                             <h3 className="qualification__title">Frontend web developer </h3>
                             <span className="qualification__subtitle">
-                                Sheikh Hasina National Youth Development Institute</span>
+                               
+                                    Programming Hero By  jhankar mahbub
+                            </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i> 2022 - Present
                             </div>
