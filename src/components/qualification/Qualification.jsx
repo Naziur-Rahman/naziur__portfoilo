@@ -6,7 +6,7 @@ function Qualification() {
         setToggleState(index);
     }
   return (
-    <section className="qualification__section">
+    <section className="qualification__section" id='qualification'>
         <h2 className="section__title">Qualification</h2>
         <span className="section__subtitle">My personal journey</span>
 
@@ -80,7 +80,7 @@ function Qualification() {
                         <div>
                             <h3 className="qualification__title">UX Expert</h3>
                             <span className="qualification__subtitle">
-                                Sheikh Hasina National Youth Development Institute</span>
+                            Programming Hero By  jhankar mahbub</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i> 2022 - Present
                             </div>

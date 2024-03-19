@@ -2,6 +2,15 @@ import React, { useState } from 'react';
 import "./header.css";
 
 function Header() {
+
+  // -----------  Change Background Header ------------
+  window.addEventListener("scroll", function(){
+    const scroll__up = document.querySelector(".scrollUp");
+    if(this.scrollY >= 560) scroll__up.classList.add("show__scroll");
+    else scroll__up.classList.remove("show__scroll");
+    });
+
+
   // -----------  Toggle menu ------------
     const [Toggle,ShowMenu] = useState(false);
   return (
@@ -28,6 +37,12 @@ function Header() {
                 <i className="uil uil-file-alt nav__icon"></i> Skills
               </a> 
             </li>
+
+            {/* <li className="nav__item">
+              <a href="#qualification" className="nav__link">
+                <i className="uil uil-graduation-cap nav__icon"></i> Qualification
+              </a> 
+            </li> */}
 
             <li className="nav__item">
               <a href="#services" className="nav__link">

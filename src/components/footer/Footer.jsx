@@ -13,8 +13,12 @@ function Footer() {
                     <a href="#portfolio" className="footer__link">porjects</a>
                 </li>
                 <li>
-                    <a href="#testimonials" className="footer__link">Tesimonials</a>
+                    <a href="#testimonials" className="footer__link">Testimonials</a>
                 </li>
+                <li>
+                    <a href="#qualification" className="footer__link">Qualification</a>
+                </li>
+
             </ul>
             <div className="footer__social">
                 <a href="https://www.facebook.com/03naziur" className="footer__social-icon" target='_blank'>
