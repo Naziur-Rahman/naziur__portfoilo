@@ -5,14 +5,15 @@ function Header() {
 
   // -----------  Change Background Header ------------
   window.addEventListener("scroll", function(){
-    const scroll__up = document.querySelector(".scrollUp");
-    if(this.scrollY >= 560) scroll__up.classList.add("show__scroll");
-    else scroll__up.classList.remove("show__scroll");
+    const Header__ = document.querySelector(".header");
+    if(this.scrollY >= 80) Header__.classList.add("scroll__header");
+    else Header__.classList.remove("scroll__header");
     });
 
 
   // -----------  Toggle menu ------------
     const [Toggle,ShowMenu] = useState(false);
+    const [activeNav,setActieNav] = useState("#home");
   return (
     <header className="header">
       <nav className="nav container">
@@ -21,7 +22,7 @@ function Header() {
         <div className= {Toggle ? "nav__menu show__menu": "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="#home" className="nav__link">
+              <a href="#home" onClick={() => setActieNav("#home")} className={activeNav === "#home" ? "nav__link active__link" : "nav__link"}>
                 <i className="uil uil-estate nav__icon"></i> Home
               </a>
             </li>

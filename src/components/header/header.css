@@ -41,6 +41,10 @@
 .nav__toggle{
     display: none;
 }
+/* Change Background of header */
+.scroll__header{
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
 
 /* Active link */
 .active_link,

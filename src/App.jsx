@@ -22,8 +22,9 @@ function App() {
         <Skills></Skills>
         <Services></Services>
         <Qualification></Qualification>
-        <Testimonials></Testimonials>
         <Portfolio></Portfolio>
+        <Testimonials></Testimonials>
+        
         <Contact></Contact>
       </main>
       <Footer></Footer>
