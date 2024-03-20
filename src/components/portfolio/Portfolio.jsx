@@ -19,16 +19,35 @@ function Portfolio() {
     <section className="portfolio container " id='portfolio'>
          <h2 className="section__title">Portfolio</h2>
         <span className="section__subtitle">See my projects</span>
-        <Swiper className="portfolio__container">
+        <Swiper className="portfolio__container"
+        loop = {true}
+        grabCursor = {true}
+        spaceBetween={20}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          576: {
+            slidesPerView: 2,
+            
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 48,
+          },
+          
+        }}
+        modules={[Pagination]}
+        >
           {Data.map(({id, image, title,description,demo_link,source_code}) => {
             return(
               <SwiperSlide className="project__card" key={id}>
                 <img src={image} alt=""className='project__img' />
                 <h3 className="project__name">{title}</h3>
-                <p className="project__description">{description}</p>
-                <div>
-                  <button class="btn btn-active "><a href={source_code}>Source Code</a></button>
-                  <button class="btn btn-active "><a href={demo_link}>Live Demo</a></button>
+                {/* <p className="project__description">{description}</p> */}
+                <div className='project__btn'>
+                  <button class="btn btn-active "><a href={source_code}  target='_blank'>Source Code</a></button>
+                  <button class="btn btn-active "><a href={demo_link}  target='_blank'>Live Demo</a></button>
                 </div>
               </SwiperSlide>
             )
