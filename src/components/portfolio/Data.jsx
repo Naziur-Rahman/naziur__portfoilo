@@ -8,36 +8,46 @@ export const Data = [
     {
         id: 1,
         image: project1,
-        title: "Project_name: Architect",
+        title: "Project name: Architect",
         description: 
-        "<div> <a href=''>Source Code </a> <a href=''>Live Demo</a></div> ",
+        "This is a Architect website. It is created using HTML, CSS, JavaScript & Tailwind . It is responsive website",
+        demo_link: "",
+        source_code:"",
     },
     {
         id: 2,
         image: project2,
-        title: "Project_name: Camera Shop",
+        title: "Project name: Camera Shop",
         description: 
-        "<div> <a href=''>Source Code </a> <a href=''>Live Demo</a></div> ",
+        "This is a Camera Shop website. It is created using HTML, CSS, JavaScript & Tailwind . It is responsive website ",
+        demo_link: "",
+        source_code:"",
     },
     {
         id: 3,
         image: project3,
-        title: "Project_name: e_School",
+        title: "Project name: e_School",
         description: 
-        "<div> <a href=''>Source Code </a> <a href=''>Live Demo</a></div> ",
+        "This is a e_School website. It is created using HTML, CSS, JavaScript & Tailwind . It is responsive website ",
+        demo_link: "https://naziur-rahman.github.io/project__03/",
+        source_code:"https://github.com/Naziur-Rahman/project__03",
     },
     {
         id: 4,
         image: project4,
-        title: "Project_name: Legal Solutions",
+        title: "Project name: Legal Solutions",
         description: 
-        "<div> <a href=''>Source Code </a> <a href=''>Live Demo</a></div> ",
+        "This is a  Legal Solutions website. It is created using HTML, CSS, JavaScript & Tailwind . It is responsive website ",
+        demo_link: "",
+        source_code:"",
     },
     {
         id: 5,
         image: project5,
-        title: "Project_name: Tea House",
+        title: "Project name: Tea House",
         description: 
-        "<div> <a href=''>Source Code </a> <a href=''>Live Demo</a></div> ",
+        "This is a Tea House website. It is created using HTML, CSS, JavaScript & Tailwind . It is responsive website ",
+        demo_link: "",
+        source_code:"",
     }
 ];
