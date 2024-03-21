@@ -27,19 +27,19 @@ function Contact() {
                         <i className="bx bx-mail-send contact__card__icon"></i>
                         <h3 className="contact__card__title">Email</h3>
                         <span className="contact__card__data">naziurr85@gmail.com</span>
-                        <a href="mailto:naziurr85@gmail.com" className="contact__button" target='_blank'>Write me <i className="bx bx-right-arrow-alt contact__button__icon"></i></a>
+                        <a href="#" className="contact__button" >Write me <i className="bx bx-right-arrow-alt contact__button__icon"></i></a>
                     </div>
                     <div className="contact__card">
                         <i className="uil uil-whatsapp contact__card__icon"></i>
                         <h3 className="contact__card__title">Whatsapp</h3>
                         <span className="contact__card__data">+8801871 950 601</span>
-                        <a href="https://api.whatsapp.com/send? phone= +8801871950601 text= Hello, more information !" className="contact__button" target='_blank'>Write me <i className="bx bx-right-arrow-alt contact__button__icon"></i></a>
+                        <a href="#" className="contact__button" >Write me <i className="bx bx-right-arrow-alt contact__button__icon"></i></a>
                     </div>
                     <div className="contact__card">
                         <i className="uil uil-facebook-messenger contact__card__icon"></i>
                         <h3 className="contact__card__title">Messenger</h3>
                         <span className="contact__card__data">Md Naziur Rahman</span>
-                        <a href="https://www.facebook.com/03naziur" className="contact__button" target='_blank'>Write me <i className="bx bx-right-arrow-alt contact__button__icon"></i></a>
+                        <a href="#" >Write me <i className="bx bx-right-arrow-alt contact__button__icon"></i></a>
                     </div>
                 </div>
             </div>

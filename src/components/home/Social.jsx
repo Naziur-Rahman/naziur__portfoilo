@@ -6,7 +6,7 @@ function Social() {
         <a href="https://www.facebook.com/03naziur" className="home__social-icon" target='_blank'>
             <i class="uil uil-facebook"></i>
         </a>
-        <a href="#" className="home__social-icon" target='_blank'>
+        <a href="https://www.linkedin.com/in/md-naziur-rahman-8470591b6/" className="home__social-icon" target='_blank'>
             <i class="uil uil-linkedin"></i>
         </a>
         <a href="https://github.com/Naziur-Rahman" className="home__social-icon" target='_blank'>

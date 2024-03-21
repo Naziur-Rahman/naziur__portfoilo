@@ -10,7 +10,7 @@ function Footer() {
                     <a href="#about" className="footer__link">About</a>
                 </li>
                 <li>
-                    <a href="#portfolio" className="footer__link">porjects</a>
+                    <a href="#portfolio" className="footer__link">projects</a>
                 </li>
                 <li>
                     <a href="#testimonials" className="footer__link">Testimonials</a>
@@ -24,10 +24,10 @@ function Footer() {
                 <a href="https://www.facebook.com/03naziur" className="footer__social-icon" target='_blank'>
                 <i class="uil uil-facebook"></i>
                 </a>
-                <a href="#" className="footer__social-icon" target='_blank'>
+                <a href="https://www.instagram.com/md.naziur_rahman/" className="footer__social-icon" target='_blank'>
                     <i class="uil uil-instagram"></i>
                 </a>
-                <a href="https://github.com/Naziur-Rahman" className="footer__social-icon" target='_blank'>
+                <a href="https://twitter.com/MdNaziu67322552" className="footer__social-icon" target='_blank'>
                     <i class="uil uil-twitter"></i>
                 </a>
             </div>

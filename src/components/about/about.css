@@ -45,6 +45,9 @@
 
 /* For large devices */
 @media screen and (max-width: 992px) {
+    .section__title{
+        margin-top: 2rem;
+    }
     .about__container{
         grid-template-columns: 1fr;
         row-gap: 2.5rem;
@@ -71,17 +74,24 @@
   /* For medium devices */
 @media screen and (max-width: 768px){
     .section{
-        padding: 2rem 0 4rem;
+        padding: 1rem 0 3rem;
     }
     .section__subtitle{
         margin-bottom: var(--mb-3);
     }
 }
 
-
+@media screen and (max-width: 576px) {
+    .about__info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
   
   /* For small devices */
   @media screen and (max-width: 350px) {
+    .section__title {
+        margin-top: 1rem;
+    }
     .about__info{
         grid-template-columns: repeat(2, 1fr);
     }

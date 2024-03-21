@@ -51,6 +51,12 @@
   }
   
   @media screen and (max-width: 576px) {
+    .project__img{
+        height: initial;
+    }
+    .project__card{
+        height: 440px;
+    }
   }
   
   /* For small devices */
