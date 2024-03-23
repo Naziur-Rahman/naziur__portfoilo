@@ -11,8 +11,8 @@ export const Data = [
         title: "Project name:  Architect",
         description: 
         "This is a Architect website. It is created using HTML, CSS, JavaScript & Tailwind . It is responsive website",
-        demo_link: "",
-        source_code:"",
+        demo_link: "https://naziur-rahman.github.io/arketake/",
+        source_code:"https://github.com/Naziur-Rahman/arketake",
     },
     {
         id: 2,
@@ -20,8 +20,8 @@ export const Data = [
         title: "Project name:  Camera Shop",
         description: 
         "This is a Camera Shop website. It is created using HTML, CSS, JavaScript & Tailwind . It is responsive website ",
-        demo_link: "",
-        source_code:"",
+        demo_link: "https://naziur-rahman.github.io/camera_shop/",
+        source_code:"https://github.com/Naziur-Rahman/camera_shop",
     },
     {
         id: 3,
@@ -38,8 +38,8 @@ export const Data = [
         title: "Project name:  Legal Solutions",
         description: 
         "This is a  Legal Solutions website. It is created using HTML, CSS, JavaScript & Tailwind . It is responsive website ",
-        demo_link: "",
-        source_code:"",
+        demo_link: "https://naziur-rahman.github.io/project__04/",
+        source_code:"https://github.com/Naziur-Rahman/project__04",
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const Data = [
         title: "Project name:  Tea House",
         description: 
         "This is a Tea House website. It is created using HTML, CSS, JavaScript & Tailwind . It is responsive website ",
-        demo_link: "",
-        source_code:"",
+        demo_link: "https://naziur-rahman.github.io/tea-house/",
+        source_code:"https://github.com/Naziur-Rahman/tea-house",
     }
 ];
