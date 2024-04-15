@@ -14,7 +14,7 @@ function About() {
 
           <div className="about__data">
             <Information></Information>
-            <p className="about__description">Hello, everyone. My name is Md Naziur Rahman. you can call me Naziur . I'm fronted devloper. I can provide clean code and pixel perfect design . I also make the website more & more interactive with web animations . A responsive design make your website accessible to ll users, regardless of their device. I'm very passionate & dedicated to my work......</p>
+            <p className="about__description">Hello, everyone. My name is Md Naziur Rahman. you can call me Naziur . I'm front-end Developer. I can provide clean code and pixel perfect design . I also make the website more & more interactive with web animations . A responsive design make your website accessible to all users, regardless of their device. I'm very passionate & dedicated to my work......</p>
 
             <a download= "" href={CV} className="button button__flex">Download CV
               <svg
